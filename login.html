@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+    <title>wealt Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="loginBody">
+    <header class="header " data-header>
+        <div class="container">
+    
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" width="190" height="28" alt="">
+          </a>
+          <nav class="navbar " data-navbar>
+            <ul class="navbar-list">
+              <li>
+                <a href="index.html" class="navbar-link lable-medium active">Home</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link lable-medium ">Rent</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link lable-medium ">Sell</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link lable-medium ">Buy</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link lable-medium ">About</a>
+              </li>
+    
+    
+            </ul>
+    
+            <div class="navbar-wapper">
+              <a href="#" class="btn-link label-meduim">Login</a>
+    
+              <a href="#" class="btn btn-fill label-meduim">Get Starated</a>
+            </div>
+    
+          </nav>
+    
+          <button class="nav-toggle-btn icon-btn active" aria-label="toggle navbar" data-nav-toggler>
+    
+            <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+            <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+          </button>
+    
+        </div>
+      </header>
+
+      <!--spinner loading-->
+  <div class="spinner-contuner">
+    <div class="spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+      
+      <section class="containerLogin forms">
+        <!-- login Form -->
+          <div class="form login">
+            <div class="form-content">
+                <header class="headerLogin">login</header>
+                <form action="#">
+                <div class="field input-field">
+                    <input type="email" placeholder="Email" class="input" required>
+                </div>
+                
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div>
+    
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                </form>
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Sign up</a></span>
+                </div>
+            </div>
+    
+            <div class="line"></div>
+    
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+    
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="/images/unnamed.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+    
+        </div> 
+        <!-- Signup Form -->
+        <div class="form signup">
+            <div class="form-content">
+                <header class="headerLogin">Sign up</header>
+    
+                <form action="#">
+    
+                    <div class="field input-field">
+                        <input type="text" placeholder="User name" class="input" required>
+                    </div>
+    
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input" required>
+                    </div>
+    
+                    <div class="field input-field">
+                        <input type="password" placeholder="Create password" class="password" required>
+                    </div>
+    
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirm password" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+    
+                    <div class="field button-field">
+                        <button>Sign up</button>
+                    </div>
+    
+                </form>
+    
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+    
+            <div class="line"></div>
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+    
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="/images/unnamed.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+    
+        </div> 
+        <!-- forgot Form -->
+    <div class=" form-Forgot ">
+        <div class="Forgot-content">
+            <i class='bx bx-left-arrow-alt'></i>
+            <header class="headerForgot">Forgot your password </header>
+                        <P class="enter-email">Enter your email address</P>
+            <form action="#" class="Forgot-from">
+            <div class="input-Forgot">
+                <input type="email" placeholder="Enter your email address" class="input">
+            </div>
+        </form>
+        <div class=" button-Forgot">
+            <button class=" buttonForgot">Forgot password</button>
+        </div>
+    </div>
+    </div>
+        
+       </section>
+
+    <script src="login.js"></script>
+      
+</body>
+</html>
